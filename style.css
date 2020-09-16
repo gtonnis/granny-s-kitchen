@@ -15,12 +15,21 @@ html {
 }
 
 h1{
-    text-shadow: 3.5px 3.5px maroon;
+  font-size: 4rem;
+    text-shadow: 3.5px 3.5px mediumblue;
     text-decoration: underline;
 }
 h2{
     text-shadow: 1px 1px black;
     text-decoration: underline;
+    text-decoration-color: blue;
+}
+h3{
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px mediumblue;
+  font-size: 3rem;
+  margin: 10px;
 }
 
 section {
@@ -30,12 +39,10 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background: #C02425;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom,  #C02425, #FFFF00);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #C02425, #FFFF00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000046, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom,  #000046, #1CB5E0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  
-
 }
 .container {
   width: 100%;
@@ -45,9 +52,8 @@ section {
   padding: 20px;
   
 }
-.brand {
+.title {
   text-align: center;
-  font-size: 4rem;
   color: white;
   margin-bottom: 30px;
 }
@@ -58,7 +64,7 @@ form {
   background-color: rgb(223, 223, 223);
   border: solid;
   border-radius: 4px;
-  border-color: darkred;
+  border-color: mediumblue;
 }
 input {
     width: 90%;
@@ -71,15 +77,15 @@ input {
 }
 
 ::placeholder{
-  color: red;
-  opacity: 1;
-  text-shadow: 0.5px 0.5px black;
+  color: lightblue;
+  opacity: 10;
+  text-shadow: 2px 2px navy;
 }
 form ion-icon {
   width: 8%;
   font-size: 3rem;
   margin-bottom: -8px;
-  color: red;
+  color: blue;
   display: inline-block;
 }
 .search-result {
@@ -95,7 +101,7 @@ form ion-icon {
   background-color: rgb(37, 37, 37);
   padding: 15px;
   overflow: hidden;
-  box-shadow: 2px 2px red;
+  box-shadow: 2px 2px blue;
 }
 .item img {
   width: 100%;
@@ -168,5 +174,5 @@ form ion-icon {
   text-align: right;
   color:white;
   margin: auto;
-  text-shadow: 0.5px 0.5px red;
+  text-shadow: 2px 2px black;
 }
