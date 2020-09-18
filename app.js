@@ -46,5 +46,3 @@ function generateHTML(results) {
   }
   clearFields();
 }
-
-
